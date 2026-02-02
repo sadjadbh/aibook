@@ -2,7 +2,6 @@
 
 **Iran**
 
+This book is about Iran region.
 
-writing an AI book.
-
-This silly book is written fully by Artificial Intelligence.
+This silly book is fully written by Artificial Intelligence.
