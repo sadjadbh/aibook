@@ -1,13 +1,11 @@
-# A mock session dictionary
-session = {"user_id": 42, "username": "Dev_User"}
+class UserSystem:
+    def __init__(self):
+        self.is_authenticated = True
 
-def logout():
-    if "user_id" in session:
-        session.clear()
-        print("Successfully logged out.")
-    else:
-        print("No active session found.")
+    def logout(self):
+        self.is_authenticated = False
+        print("User has been signed out.")
 
 # Usage
-logout()
-print(f"Current session: {session}")
+app = UserSystem()
+app.logout()
